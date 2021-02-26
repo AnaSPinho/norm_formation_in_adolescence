@@ -10,7 +10,7 @@ library(effects)
 library(car)
 library(stargazer)
 
-########## Adolescents’ personal norms prior to peer influence ##########
+####### Adolescents’ personal norms prior to peer influence ########
 
 # we will look at individuals mean rating across all risk-taking items and prosocial items
 grpMSD<-select(w1, participantNr, all_risk_scores, prosocial_scores) %>% 
@@ -37,6 +37,9 @@ summary(r_anova)
 pro_anova<- aov(prosocial_scores ~ gID, data = w1)
 summary(pro_anova)
 
+
+
+####### Main analysis: adolescents' norm adjustments ########
 
 # model 1: fit linear mixed-effect model to norm adjustments to test whether adjustments are influenced by social source and whether this effect is dependent on age
 dfmodels<-w2%>%
@@ -101,6 +104,7 @@ directionEffect.DF$direction<- factor(directionEffect.DF$direction,
                                                "Moderate\napproval",
                                                "Extreme\napproval"))
 # write.csv(directionEffect.DF, "directionEffect.DF.csv")
+
 
 
 ####### Exploratory analyses: adolescents' norm updating strategies ####### 
