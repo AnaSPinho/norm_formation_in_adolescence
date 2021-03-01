@@ -2,7 +2,7 @@
 
 26 February 2021
 
-This repository contains the data and code supporting the paper 'Majority and popularity effects on norm formation in adolescence' by Ana da Silva Pinho, Lucas Molleman, Barbara Braams, Wouter van den Bos.
+This repository contains the data and code supporting the paper 'Majority and popularity effects on norm formation in adolescence' by Ana da Silva Pinho, Lucas Molleman, Barbara R. Braams, Wouter van den Bos.
 
 The data file 'w1_mean_score.csv' consists of data from wave 1 of the experiment and 'w2.csv' consists of data from wave 2 of the experiment. Variables description is available in 'variable_description.xlsx'.
 
